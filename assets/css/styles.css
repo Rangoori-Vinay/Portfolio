@@ -638,5 +638,20 @@ body {
     50% { border-color: transparent; }
 }
 
+.education__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.education__img-container {
+  display: flex;
+  justify-content: flex-end;
+}
 
+.education__img {
+  width: 250px;
+  /* Adjust size as needed */
+  height: auto;
+  border-radius: 30px;
+}
